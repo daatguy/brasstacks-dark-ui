@@ -1,4 +1,5 @@
-# Brasstacks Dark: A UI Theme for Atom
+# brasstacks-dark
+## An industrial chic dark theme for Atom
 
 Do you like muted gold? I like muted gold.
 
