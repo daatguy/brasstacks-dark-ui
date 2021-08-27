@@ -1,0 +1,102 @@
+
+@import "ui-variables-custom.less"; // import colors and custom variables
+
+// ONE dark UI variables
+// ----------------------------------------------
+
+// Official variables
+// These variables must be defined in every theme
+// Source: https://github.com/atom/atom/blob/master/static/variables/ui-variables.less
+// ----------------------------------------------
+
+
+// Text -----------------
+@text-color:            #76725d;
+//@text-color-subtle:     #545347;
+@text-color-subtle:     fade(#ABA89D,35%);
+@text-color-highlight:  #cdc6a8;
+@text-color-selected:   #c79b66;
+
+@text-color-info:    #c6c8b7;
+@text-color-success: #8a9683;
+@text-color-warning: #9f9a69;
+@text-color-error:   #a86354;
+
+
+// Background -----------------
+@background-color-info:    #c6c8b7;
+@background-color-success: #8a9683;
+@background-color-warning: #655d20;
+@background-color-error:   #6d3229;
+
+@background-color-highlight: #242320;
+@background-color-selected:  #2f2c25;
+
+@app-background-color: @dark-bg;
+
+// Background colors
+@light-bg: #292825;
+@mid-bg: #242320;
+@dark-bg: #1b1b18;
+
+// Base -----------------
+@base-background-color: @dark-bg;
+@base-border-color:     @ui-border;
+
+
+// Components -----------------
+@pane-item-background-color:       @base-background-color;
+@pane-item-border-color:           @base-border-color;
+
+@input-background-color:           darken(@base-background-color, 6%);
+@input-border-color:               @base-border-color;
+
+@tool-panel-background-color:      @dark-bg;
+@tool-panel-border-color:          @base-border-color;
+
+@inset-panel-background-color:     lighten(@mid-bg, 4%);
+@inset-panel-border-color:         fadeout(@base-border-color, 15%);
+
+@panel-heading-background-color:   @mid-bg;
+@panel-heading-border-color:       @base-border-color;
+
+@overlay-background-color:         mix(@mid-bg, @dark-bg);
+@overlay-border-color:             @base-border-color;
+
+@button-background-color:          @light-bg;
+@button-background-color-hover:    lighten(@button-background-color, 2%);
+@button-background-color-selected: @accent-bg-color;
+@button-border-color:              @base-border-color;
+
+@tab-bar-background-color:         @dark-bg;
+@tab-bar-border-color:             @base-border-color;
+@tab-background-color:             @dark-bg;
+@tab-background-color-active:      @mid-bg;
+@tab-border-color:                 @base-border-color;
+
+@tree-view-background-color:       @dark-bg;
+@tree-view-border-color:           @base-border-color;
+
+@ui-site-color-1: #8c83a6; // blue
+@ui-site-color-2: #8cb374; // green
+@ui-site-color-3: #df966c; // orange
+@ui-site-color-4: #d06474;             // pink
+@ui-site-color-5: #7fa49f;             // yellow
+
+
+// Sizes -----------------
+@font-size:               10px;
+@input-font-size:         12px;
+@disclosure-arrow-size:   10px;
+
+@component-padding:       4px;
+@component-icon-padding:  4px;
+@component-icon-size:     16px; // needs to stay 16px to look sharpest
+@component-line-height:   25px;
+@component-border-radius: 3px;
+
+@tab-height:              30px;
+
+
+// Font -----------------
+@font-family: system-ui;
